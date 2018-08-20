@@ -1,6 +1,7 @@
 package com.therealdanvega.domain
 
-class People {
+@groovy.transform.ToString
+class Person {
 
     String first,last
 
