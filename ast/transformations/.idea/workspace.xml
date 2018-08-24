@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="665ccf26-5d3d-4ff4-8a08-bc8d10d0a9e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compile/SomeClass.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/Developer.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/builder/default.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,46 +20,55 @@
     <session id="272200478">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="7" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="groovy" value="17" />
+          <entry key="groovy" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="Groovy" value="17" />
+          <entry key="Groovy" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="groovy" value="1139" />
+          <entry key="groovy" value="1491" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="1139" />
+          <entry key="Groovy" value="1491" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/compile/SomeClass.groovy">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builder/Developer.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/builder/default.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -94,6 +104,8 @@
         <option value="$PROJECT_DIR$/src/immutable/app.groovy" />
         <option value="$PROJECT_DIR$/src/typechecked/Person.groovy" />
         <option value="$PROJECT_DIR$/src/compile/SomeClass.groovy" />
+        <option value="$PROJECT_DIR$/src/builder/Developer.groovy" />
+        <option value="$PROJECT_DIR$/src/builder/default.groovy" />
       </list>
     </option>
   </component>
@@ -366,19 +378,19 @@
               <item name="transformations" type="b2602c69:ProjectViewProjectNode" />
               <item name="transformations" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="compile" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535148219720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535149140727" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -396,20 +408,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Groovy.app">
+  <component name="RunManager" selected="Groovy.default">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="app (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="transformations" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/tuple/app.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/tuple" />
-      <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -458,6 +459,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="default" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="transformations" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/builder/default.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/builder" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -473,19 +485,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Groovy.app (2)" />
       <item itemvalue="Groovy.app (3)" />
       <item itemvalue="Groovy.app (4)" />
       <item itemvalue="Groovy.app (5)" />
       <item itemvalue="Groovy.app" />
+      <item itemvalue="Groovy.default" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.default" />
         <item itemvalue="Groovy.app" />
         <item itemvalue="Groovy.app (5)" />
         <item itemvalue="Groovy.app (4)" />
         <item itemvalue="Groovy.app (3)" />
-        <item itemvalue="Groovy.app (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +518,7 @@
     <frame x="80" y="23" width="1360" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27617604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27996966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -582,9 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="e#15#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="e#16#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,6 +679,23 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/Developer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/default.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
