@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04d663b1-3416-4b93-897d-b74b4b83f935" name="Default Changelist" comment="" />
+    <list default="true" id="d3405aaa-6f82-4602-acff-799a628e7173" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xml.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../builders-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../builders-demo/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +18,10 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1999247547">
+    <session id="-727350048">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
@@ -35,30 +39,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="groovy" value="767" />
+          <entry key="groovy" value="552" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="767" />
+          <entry key="Groovy" value="552" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/html.groovy">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xml.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="360">
+              <caret line="24" column="27" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/about.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/html.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -334,24 +342,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="builders-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="builders-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="builders-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="builders-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="builders-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="builders-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -359,10 +365,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540120102689" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540122521682" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -388,7 +396,7 @@
       </method>
     </configuration>
     <configuration name="html" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="builders-demo" />
+      <module name="exercise" />
       <setting name="path" value="file://$PROJECT_DIR$/src/html.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -399,7 +407,7 @@
       </method>
     </configuration>
     <configuration name="xml" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="builders-demo" />
+      <module name="exercise" />
       <setting name="path" value="file://$PROJECT_DIR$/src/xml.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -439,16 +447,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="04d663b1-3416-4b93-897d-b74b4b83f935" name="Default Changelist" comment="" />
-      <created>1540116473809</created>
+      <changelist id="d3405aaa-6f82-4602-acff-799a628e7173" name="Default Changelist" comment="" />
+      <created>1540121809349</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540116473809</updated>
+      <updated>1540121809349</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="23" width="1360" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -463,7 +472,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -484,18 +493,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/xml.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="24" column="27" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/about.html">
+    <entry file="file://$PROJECT_DIR$/src/html/books.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="296">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
         </state>
       </provider>
     </entry>
